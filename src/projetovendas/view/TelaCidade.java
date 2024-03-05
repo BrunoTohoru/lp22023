@@ -136,7 +136,7 @@ public class TelaCidade extends javax.swing.JFrame {
         System.out.println("a cidade eh"+ cidadeController.getCidade());
         limpar();
         System.out.println("a cidade eh"+ cidadeController.getCidade());
-       exlcuir();
+       excluir();
        
     }//GEN-LAST:event_jBCadastrarActionPerformed
 
@@ -145,7 +145,7 @@ public class TelaCidade extends javax.swing.JFrame {
     }//GEN-LAST:event_jBCancelarActionPerformed
 
     private void jBExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBExcluirActionPerformed
-        exlcuir();
+        excluir();
     }//GEN-LAST:event_jBExcluirActionPerformed
    
     private void limpar(){
@@ -153,7 +153,7 @@ public class TelaCidade extends javax.swing.JFrame {
        jTFNomeCidade.setText(""); 
     }
     
-    private void exlcuir(){
+    private void excluir(){
     cidadeController.excluir();
        System.out.println("a cidade eh"+ cidadeController.getCidade());
     }
